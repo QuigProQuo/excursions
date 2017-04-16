@@ -1,5 +1,35 @@
 html {
-  font-family: Helvetica, sans-serif;
+  font-family: verdana;
   background: black;
   color: white;
+  text-align: center;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+p {
+  color: grey;
+  font-size: 21px;
+}
+
+a {
+  font-size: 16px;
+  color: aquamarine;
+}
+
+footer {
+  text-align: right;
 }
