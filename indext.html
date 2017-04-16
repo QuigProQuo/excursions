@@ -2,15 +2,17 @@
 <html>
   <head>
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <script src="./resources/javascript/popup.js" type="text/javascript"></script>
     <meta charset="UTF-8">
     <title></title>
   </head>
   <body>
     <h1>Discover hidden places in the world around you</h1>
-    <p>
-      <a class="download" href="#">Download Exursion (Coming Soon!)</a>
-      <!-- Add coming soon page? -->
-    </p>
+    <!-- <a class="download" href="#">Download Exursion (Coming Soon!)</a> -->
+    <!-- Until Exursion is ready -->
+    <div class="popup" onclick="myFunction1()">Download Exursion (Coming Soon!)
+      <span class="popuptext" id="myPopup1">Patience! Coming Soon!</span>
+    </div>
     <div>
       <video autoplay="" muted="" loop="">
         <source src="resources/videos/excursion.mp4" type="video/mp4">
@@ -21,12 +23,16 @@
       Excursion remembers places you like, and recoomends new poitns of interest around you.
     </p>
     <div class="main_images">
-      <img src="resources/photos/camp.jpg" alt="">
+      <img src="resources/photos/camp.jpg" class="camp_photo">
       <br />
       <img class="app" src="resources/photos/phone.png">
     </div>
     <h2> Coming Soon for iPhone and Android</h2>
-    <a class="download" href="#">Download Exursion (Coming Soon!)</a>
+    <!-- <a class="download" href="#">Download Exursion (Coming Soon!)</a> -->
+    <div class="popup" onclick="myFunction2()">Download Exursion (Coming Soon!)
+      <span class="popuptext" id="myPopup2">Again? Patience! It really is Coming Soon!</span>
+    </div>
+
     <footer>
       <p>© Excursion</p>
     </footer>
